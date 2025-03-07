@@ -1,0 +1,57 @@
+.box {
+    height: 460px;
+    width: 562px;
+    min-width: 562px;
+    background: transparent;
+    margin: 30px 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+  }
+  
+  form {
+    align-items: center;
+  }
+  
+  .textinput {
+    width: 230px;
+    padding: 10px;
+    margin: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .msginput {
+    width: 490px;
+    height: 130px;
+    padding: 10px;
+    margin: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    min-height: 100px;
+  }
+  
+  .submitButton {
+    background-color: #007BFF;
+    color: white;
+    margin: -10px 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .errorContainer{
+    margin: -30px 0px 0px 240px;
+  }
+  .success{
+    color: rgb(59, 204, 59);
+  }
+  .error{
+    color: rgb(104, 97, 97);
+  }

@@ -1,0 +1,43 @@
+.box{
+    height: 210px;
+    width: 562px;
+    min-width: 562px;
+    background: transparent;
+    margin: 30px 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+}
+
+.ff{
+    margin: 8%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inp{
+    position: inherit;
+    width: 280px;
+    padding: 10px;
+    margin: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.submitbotton{
+    background-color: #007BFF;
+    position: inherit;
+    color: white;
+    margin: 0px ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.message{
+    color: rgb(104, 97, 97);
+    margin: -28px 0px 0px 100px;
+}

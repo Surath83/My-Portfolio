@@ -1,0 +1,22 @@
+.desc{
+    margin: 150px 10%;
+}
+.heading{
+    margin-left: -2% ;
+}
+.b{
+    font-size: XX-large;
+}
+ul{
+    list-style-type: " #   ";
+}
+.i{
+    font-weight: 300;
+    font-size: large;
+}
+li{
+    margin: 8px 0px;
+}
+.bbt{
+    background: transparent;
+}

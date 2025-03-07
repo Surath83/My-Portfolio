@@ -1,0 +1,15 @@
+.copyright{
+    margin: -30px 20px 0px 0px;
+    float: right;
+  }
+.b{
+    font-weight: 600;
+    font-size: X-large;
+}
+.logo {
+  height: 8em;
+  padding: 1.5em;
+}
+.id{
+  border-left: 5px solid rgb(56, 134, 197);
+}

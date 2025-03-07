@@ -1,0 +1,30 @@
+.box{
+    height: 210px;
+    width: 562px;
+    min-width: 562px;
+    background: transparent;
+    margin: 30px 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+}
+
+.ff{
+    margin: 15px 0px 0px 8%;
+}
+
+.downbutton{
+    display: flex;
+    background-color: #007BFF;
+    position: inherit;
+    color: white;
+    margin: -45px 0px 0px 240px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+

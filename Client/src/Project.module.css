@@ -1,0 +1,11 @@
+.desc{
+    margin: 150px 10%;
+}
+.heading{
+    margin-left: -2% ;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
