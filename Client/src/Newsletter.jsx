@@ -14,7 +14,7 @@ function Newsletter() {
         e.preventDefault();
         
         try {
-            const response = await axios.post('http://localhost:5000/api/newsletter', { email });
+            const response = await axios.post('https://my-portfolio-2-sjzg.onrender.com/api/newsletter', { email });
             if (response.status === 201) {
                 setMessage('Subscribed successfully');
                 setEmail('');
