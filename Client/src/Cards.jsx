@@ -17,12 +17,14 @@ function Cards ({title, image , hash ,description ,year ,link}) {
     return(
         <div className={style.container}>
             <div className={style.label}>
+                <div className={style.boxn}>
                 <h2>{title}</h2><h6><i>{year}</i></h6>
                 <br />
                 <p>{description}</p>
                 {link && (
                     <button className={style.button} onClick={handleClick}>Link</button>
                 )}
+                </div>
             </div>
             <div className={style.hash} style={{display: imageLoaded ? 'none' : 'inline'}}>
             <Blurhash

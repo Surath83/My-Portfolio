@@ -35,7 +35,7 @@ function Getintouch() {
     e.preventDefault();
     if (validate()) {
       try {
-        const response = await axios.post('http://localhost:5000/api/contact', formData);
+        const response = await axios.post('https://my-portfolio-2-sjzg.onrender.com/api/contact', formData);
         if (response.status === 201) {
           setSuccess(true);
           setFormData({

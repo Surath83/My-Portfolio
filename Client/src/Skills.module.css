@@ -35,10 +35,10 @@
 .gold_slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 20px;
-    height: 20px;
-    background: #400599;
+    height:inherit;
+    width:inherit;
     border-radius: 50%;
+    background: #7437cf;
     cursor: pointer;
 }
   

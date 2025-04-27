@@ -14,7 +14,7 @@ function Newsletter() {
         e.preventDefault();
         
         try {
-            const response = await axios.post('http://localhost:5000/api/newsletter', { email });
+            const response = await axios.post('https://my-portfolio-2-sjzg.onrender.com/api/newsletter', { email });
             if (response.status === 201) {
                 setMessage('Subscribed successfully');
                 setEmail('');
@@ -37,7 +37,7 @@ function Newsletter() {
 
     return (
         <div className={style.box}>
-            <h2>Subscribe to our Newsletter</h2>
+            <h2>Subscribe to my Newsletter</h2>
             <form className={style.ff} onSubmit={handleSubmit}>
                 <input 
                     type='email' 

@@ -10,6 +10,11 @@
     backdrop-filter: blur(3px);
 }
 
+.box:hover{
+    box-shadow: 0px 10px 30px rgba(44, 44, 44, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
 .ff{
     margin: 15px 0px 0px 8%;
 }

@@ -20,3 +20,21 @@ li{
 .bbt{
     background: transparent;
 }
+.previewbutton{
+    display: flex;
+    background-color: #2d8ef5;
+    position: inherit;
+    color: white;
+    margin: -50px 0px 0px 470px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.previewbutton:hover{
+    box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.068);
+    translate: 0px -4px;
+    transition: 0.2s ease-in-out;
+}
