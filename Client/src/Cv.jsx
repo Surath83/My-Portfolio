@@ -8,7 +8,7 @@ const Cv = () => {
       <h2>Resume</h2><br />
       <div className={style.ff}>
         <h4>My resume</h4>
-        <button className={style.downbutton} onClick={() => openLink('https://www.dropbox.com/scl/fi/ydq6bywsg9ehd5hvcfzpv/Resume_SurathChowdhury.docx?rlkey=t001448w3m7kmein5lb73w6lp&st=ts43lxsm&dl=0')}>Preview</button>
+        <button className={style.downbutton} onClick={() => openLink('https://www.dropbox.com/scl/fi/5jnh0m5r2ftp7nskz7p2g/Resume_SurathChowdhury.pdf?rlkey=y4olcm5ak601quk67nzphlb5d&st=9nkzooog&dl=0')}>Preview</button>
       </div><br/>
      </div>
   );
