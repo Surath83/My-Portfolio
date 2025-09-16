@@ -68,7 +68,7 @@ my-portfolio/
 
 <h2>Minimap</h2>
 
-<img src="showcase.png" />
+<img src="showcase.PNG" />
 
 <hr>
 
