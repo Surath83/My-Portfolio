@@ -66,6 +66,12 @@ my-portfolio/
 
 <hr>
 
+<h2>Minimap</h2>
+
+<img src="showcase.png">
+
+<hr>
+
 <h2>Getting Started</h2>
 
 <h3>Prerequisites</h3>
