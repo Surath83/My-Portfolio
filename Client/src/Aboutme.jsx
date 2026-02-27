@@ -52,7 +52,7 @@ const Aboutme = () => {
                                 <li>
                                     <p className={style.bbt}>Graph Developer - Associate (2025)</p>
                                     <button className={style.previewbutton} onClick={() => openLink('https://www.apollographql.com/tutorials/certifications/93bed260-e756-4093-b1a9-c06be5870b51')}>Preview</button>
-                                    <p><i className={style.i}>Online course- Coursera</i></p>
+                                    <p><i className={style.i}>Online course- Apollographql</i></p>
                                 </li>
                             </ul>
                     </h4><br /><br /><h1 className={style.heading}>INTERESTS :</h1><br />
