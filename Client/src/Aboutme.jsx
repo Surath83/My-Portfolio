@@ -7,7 +7,7 @@ const Aboutme = () => {
         <><h1 className={style.heading}>EDUCATION :</h1><br />
                     <h4>
                         <ul>
-                            <li><b className={style.b}>B.tech: </b>Computer Science and Engineering | (VTU) | SJB Institute of Technology | Bengaluru | CGPA: 8.31 | (2022-2026) <i>(highest qualification)</i> </li>
+                            <li><b className={style.b}>B.tech: </b>Computer Science and Engineering | (VTU) | SJB Institute of Technology | Bengaluru | CGPA: 8.52 | (2022-2026) <i>(highest qualification)</i> </li>
                             <li><b className={style.b}>XII: </b>(WBCHSE) | Swami Pranava Nanda Vidyapith | Kolkata | 80.66% | (2022)</li>
                             <li><b className={style.b}>X: </b>(WBBSE) | Swami Pranava Nanda Vidyapith | Kolkata | 72.14% | (2020)</li>
                         </ul>
@@ -53,6 +53,16 @@ const Aboutme = () => {
                                     <p className={style.bbt}>Graph Developer - Associate (2025)</p>
                                     <button className={style.previewbutton} onClick={() => openLink('https://www.apollographql.com/tutorials/certifications/93bed260-e756-4093-b1a9-c06be5870b51')}>Preview</button>
                                     <p><i className={style.i}>Online course- Apollographql</i></p>
+                                </li>
+                                <li>
+                                    <p className={style.bbt}>SQL (Basic) (2026)</p>
+                                    <button className={style.previewbutton} onClick={() => openLink('https://www.hackerrank.com/certificates/iframe/c1ef4772dce9')}>Preview</button>
+                                    <p><i className={style.i}>Online course- HackerRank</i></p>
+                                </li>
+                                <li>
+                                    <p className={style.bbt}>SQL (Intermediate) (2026)</p>
+                                    <button className={style.previewbutton} onClick={() => openLink('https://www.hackerrank.com/certificates/iframe/bbd63461ca44')}>Preview</button>
+                                    <p><i className={style.i}>Online course- HackerRank</i></p>
                                 </li>
                             </ul>
                     </h4><br /><br /><h1 className={style.heading}>INTERESTS :</h1><br />
