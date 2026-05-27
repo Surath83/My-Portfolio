@@ -55,12 +55,12 @@ const Aboutme = () => {
                                     <p><i className={style.i}>Online course- Apollographql</i></p>
                                 </li>
                                 <li>
-                                    <p className={style.bbt}>SQL (Basic) (2026)</p>
+                                    <p className={style.bbt}>SQL - Basic (2026)</p>
                                     <button className={style.previewbutton} onClick={() => openLink('https://www.hackerrank.com/certificates/iframe/c1ef4772dce9')}>Preview</button>
                                     <p><i className={style.i}>Online course- HackerRank</i></p>
                                 </li>
                                 <li>
-                                    <p className={style.bbt}>SQL (Intermediate) (2026)</p>
+                                    <p className={style.bbt}>SQL - Intermediate (2026)</p>
                                     <button className={style.previewbutton} onClick={() => openLink('https://www.hackerrank.com/certificates/iframe/bbd63461ca44')}>Preview</button>
                                     <p><i className={style.i}>Online course- HackerRank</i></p>
                                 </li>
