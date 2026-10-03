@@ -1,0 +1,215 @@
+.workExp {
+  width: 100%;
+  max-width: 900px;
+  margin: 0;
+  padding: 20px 0;
+  text-align: left;
+}
+
+.timeline {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 30px;
+  list-style: none;
+}
+
+/* Black vertical timeline line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  bottom: 7px;
+  left: 6px;
+  width: 2px;
+  background: #000000;
+}
+
+.item {
+  position: relative;
+  margin: 0 0 42px;
+  padding: 0 0 42px 22px;
+  text-align: left;
+}
+
+/* Separator between experiences */
+.item:not(:last-child) {
+  border-bottom: 1px solid #d1d5db;
+}
+
+/* Timeline dot */
+.item::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: -1px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+/* Experience heading */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 7px;
+  text-align: left;
+}
+
+.role {
+  color: #111111;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.type {
+  padding: 4px 11px;
+  border-radius: 999px;
+  background: #f3f4f6;
+  color: #111111;
+  border: 1px solid #d1d5db;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+/* Company, location and date */
+.meta {
+  margin-bottom: 17px;
+  color: #555555;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* Responsibilities */
+.details {
+  margin: 0;
+  padding-left: 21px;
+  color: #444444;
+  text-align: left;
+}
+
+.details li {
+  margin-bottom: 10px;
+  padding-left: 5px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.details li:last-child {
+  margin-bottom: 0;
+}
+
+.details li::marker {
+  color: #000000;
+}
+
+/* Subtle hover */
+.item {
+  transition: transform 0.2s ease;
+}
+
+.item:hover {
+  transform: translateX(3px);
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .workExp {
+    padding: 15px 0;
+  }
+
+  .timeline {
+    padding-left: 27px;
+  }
+
+  .timeline::before {
+    left: 5px;
+  }
+
+  .item {
+    padding-left: 20px;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+  }
+
+  .role {
+    font-size: 1.2rem;
+  }
+
+  .type {
+    font-size: 0.85rem;
+    padding: 3px 9px;
+  }
+
+  .meta {
+    font-size: 1rem;
+  }
+
+  .details li {
+    font-size: 0.98rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .workExp {
+    padding: 10px 0;
+  }
+
+  .timeline {
+    padding-left: 23px;
+  }
+
+  .timeline::before {
+    left: 4px;
+  }
+
+  .item {
+    padding-left: 17px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+
+  .item::before {
+    width: 12px;
+    height: 12px;
+    left: -2px;
+  }
+
+  .header {
+    gap: 6px;
+  }
+
+  .role {
+    font-size: 1.05rem;
+  }
+
+  .type {
+    font-size: 0.78rem;
+    padding: 2px 7px;
+  }
+
+  .meta {
+    font-size: 0.9rem;
+    margin-bottom: 11px;
+  }
+
+  .details {
+    padding-left: 16px;
+  }
+
+  .details li {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 7px;
+  }
+}

@@ -1,4 +1,5 @@
 import style from './About.module.css'
+import WorkExp from './WorkExp'
 const Aboutme = () => {
     const openLink = (url) => {
         window.open(url, '_blank');
@@ -11,6 +12,9 @@ const Aboutme = () => {
                             <li><b className={style.b}>XII: </b>(WBCHSE) | Swami Pranava Nanda Vidyapith | Kolkata | 80.66% | (2022)</li>
                             <li><b className={style.b}>X: </b>(WBBSE) | Swami Pranava Nanda Vidyapith | Kolkata | 72.14% | (2020)</li>
                         </ul>
+                    </h4><br /><br /><h1 className={style.heading}>Work Experience :</h1><br />
+                    <h4>
+                        <WorkExp />
                     </h4><br /><br /><h1 className={style.heading}>COURSES :</h1><br />
                     <h4>
                             <ul>
